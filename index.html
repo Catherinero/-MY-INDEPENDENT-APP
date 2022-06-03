@@ -1,0 +1,34 @@
+<html>
+
+<head style="background-color:purple;">
+    <title>For when you can't spell words</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color:rgb(211, 154, 211);">
+    <div class="container">
+        <center>
+            <h1>Helping With Spelling :> </h1>
+                <img id="logo_img" src="download-removebg-preview.png">
+            </h1>
+            <hr>
+            <h4 style="color:darkmagenta;"> Press the button to then start talking then you can simply copy and paste the word any where (Control+c = copy & Control+v = paste )</h4>
+
+            <div class="form-group">
+                <h3>Say any word you can't spell</h3>
+                <label>What word you said : </label>
+                <textarea id="textbox" class="form-control" readonly="true">  </textarea>
+            </div>
+            <button class="btn btn-primary" onclick="start()"> Start microphone and say the word </button>
+            <p>Press the Start button to start the micro phone</p>
+            <p style="color:darkmagenta;"> (refresh page if the text is not dissapearing from text box when button is hit and if the word you said is shpwing up wrong try to clear your voice by drinking some water )</p>
+            <script src="main.js"></script>
+</body>
+
+</html>
